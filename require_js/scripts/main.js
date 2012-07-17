@@ -7,8 +7,8 @@ requirejs.config({
    */
   paths: {
     'jquery'           : 'jquery',
-    //'jquery.alpha' : 'jquery.alpha',
-   // 'jquery.beta' : 'jquery.beta',
+    'jquery.alpha' : 'jquery.alpha',
+   'jquery.beta' : 'jquery.beta',
     'App' : 'app'
   }
 });
