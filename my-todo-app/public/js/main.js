@@ -8,7 +8,11 @@ require.config({
     jquery: 'libs/jquery/jquery-min',
     underscore: 'libs/underscore/underscore-min',
     backbone: 'libs/backbone/backbone-optamd3-min',
-    text: 'libs/require/text'
+    text: 'libs/require/text',
+    store: 'libs/backbone/localstorage',
+    
+    modelsTodo: 'models/todo',
+    todosTemplate: 'text!templates/todos.html',
   }
 
 });

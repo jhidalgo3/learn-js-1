@@ -4,7 +4,8 @@ define(['underscore', 'backbone'], function(_, Backbone) {
     // Default attributes for the todo.
     defaults: {
       content: "empty todo...",
-      done: false
+      done: false,
+      order: 0
     },
 
     // Ensure that each todo created has `content`.
