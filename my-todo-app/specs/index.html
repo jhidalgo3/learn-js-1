@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Require.js with Jasmine Example</title>
+    <link rel="stylesheet" href="libs/jasmine.css">
+    <script src="libs/jasmine.js"></script>
+    <script>
+    if (location.hash === '#testem')
+    	document.write('<script src="/testem.js"></'+'script>')
+    </script>
+    <script src="libs/jasmine-html.js"></script>
+    </head>
+    <body>
+        <h1>Require.js with Jasmine Example</h1>
+        <script data-main="main_test" src="libs/require.js"></script>
+    </body>
+</html>
