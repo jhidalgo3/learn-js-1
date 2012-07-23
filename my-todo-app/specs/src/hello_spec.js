@@ -1,5 +1,5 @@
 define(
-['hello'],
+['../hello'],
 function(hello){
     describe('hello', function(){
         it('should say hello', function(){
